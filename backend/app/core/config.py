@@ -10,8 +10,8 @@ class Settings(BaseSettings):
     database_url: str
     redis_url: str = "redis://localhost:6379/0"
     anthropic_api_key: str
-    github_client_id: str
-    github_client_secret: str
+    github_client_id: Optional[str] = None
+    github_client_secret: Optional[str] = None
     environment: str = "development"
     frontend_url: str = "http://localhost:5173"
 
