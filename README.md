@@ -2,6 +2,9 @@
 
 A full-stack developer tool that uses AI to analyze GitHub repositories, summarize every file, generate architecture overviews, and answer natural language questions about any codebase.
 
+🔗 **Live Demo:** https://hloganathan08.github.io/repomind  
+🔗 **API:** https://repomind-api-dbaq.onrender.com
+
 ## Tech Stack
 
 **Backend**
